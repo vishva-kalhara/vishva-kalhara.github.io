@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.top-nav {
+    backdrop-filter: blur(25px);
+}
+
+::selection {
+    background: #c6fca6;
+    color: #1e1e1e;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #c6fca6;
+    color: #1e1e1e;
+    text-shadow: none;
+}
+
+.index-projects-img-pizza_paradise {
+    transition: all 0.2s ease-in;
+    opacity: 1;
+}
+
+.index-projects-img-pizza_paradise:hover {
+    opacity: 0.85;
+}
+
+.fade-in-section {
+    animation: fade-in-keyframes linear;
+    animation-timeline: view(800px 0px);
+}
+
+/* .anim-fade-in-section {
+    animation: fade-in-keyframes linear;
+    animation-timeline: view();
+    animation-range-start: 0;
+    animation-range-end: 250px;
+} */
+
+@keyframes fade-in-keyframes {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.index-project-items {
+    animation: fade-in linear;
+    animation-timeline: view(650px 0px);
+}
+
+.fade-out-item {
+    animation: fade-out-anim linear;
+    animation-timeline: view(350px 0px);
+}
+
+/* .fade-in {
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: 0;
+    animation-range-end: 250px;
+} */
+
+@keyframes fade-in {
+    from {
+        /* scale: 0.9; */
+        opacity: 0.2;
+    }
+    to {
+        /* scale: 1; */
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out-anim {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.2;
+    }
+}
+
+.index-slogan-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.index-slogan-wrapper > h1 {
+    animation: move-rtl linear;
+    animation-timeline: scroll(root);
+}
+
+@keyframes move-rtl {
+    /* 0% {
+        transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-100%);
+            } */
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.my-shadow :hover {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+@keyframes page-fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes page-fade-out {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+::view-transition-old(root) {
+    animation: page-fade-out 500ms;
+}
+
+::view-transition-new(root) {
+    animation: page-fade-in 500ms;
+}
