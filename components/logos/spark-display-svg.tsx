@@ -6,6 +6,7 @@ const SparkDisplaySvg = () => {
             width="324"
             height="157"
             viewBox="0 0 324 157"
+            className="bg-[#1e1e1e] rounded-l-xl"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
         >

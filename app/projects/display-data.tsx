@@ -31,7 +31,8 @@ export const projectData: indexProjectCardProps[] = [
         href: "/projects/queue-up",
     },
     {
-        bannerCls: "from-[#F9A826] to-[#FF4D4D] px-10",
+        bannerCls:
+            "from-[#F9A826] to-[#FF4D4D] ps-10 pr-0 justify-end relative py-32",
         bannerContent: <SparkDisplaySvg />,
         cta: {
             Download:
