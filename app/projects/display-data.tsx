@@ -31,7 +31,7 @@ export const projectData: indexProjectCardProps[] = [
         href: "/projects/queue-up",
     },
     {
-        bannerCls: "from-[#F9A826] to-[#FF4D4D]",
+        bannerCls: "from-[#F9A826] to-[#FF4D4D] px-10",
         bannerContent: <SparkDisplaySvg />,
         cta: {
             Download:
