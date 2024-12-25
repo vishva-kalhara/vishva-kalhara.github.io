@@ -6,6 +6,32 @@ import SparkDisplaySvg from "@/components/logos/spark-display-svg";
 
 export const projectData: indexProjectCardProps[] = [
     {
+        bannerContent: (
+            <svg
+                width="65"
+                height="67"
+                viewBox="0 0 65 67"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M59.8911 0.186035L36.5451 36.8812L33.3145 20.789H0.886215L59.8911 0.186035ZM5.7628 66.7493L29.1087 30.0542L32.3394 46.1464H64.7676L5.7628 66.7493Z"
+                    fill="#1E1E1E"
+                />
+            </svg>
+        ),
+        description:
+            "Phoenix - A cross-platform licensing and subscription management SDK for Java and C# standalone apps. Secure your software with real-time license validation, Stripe payments, and an intuitive dashboard for tracking licenses and payments.",
+        href: "/projects/phoenix",
+        bannerCls: "from-[#C6FCA6] to-[#A7FCEE]",
+        cta: {
+            Saas: "",
+            YouTube: "",
+        },
+    },
+    {
         bannerCls: "from-[#D7EBFB] to-[#E0CFFF]",
         bannerContent: (
             <svg
@@ -24,8 +50,8 @@ export const projectData: indexProjectCardProps[] = [
         description:
             "Lightweight waitlist SaaS platform that empowers developers and startups to effortlessly collect and manage waitlist emails for their upcoming projects.",
         cta: {
-            SaaS: "",
-            GitHub: "",
+            SaaS: "https://queue--up.vercel.app/",
+            GitHub: "https://github.com/vishva-kalhara/queue-up",
             Youtube: "",
         },
         href: "/projects/queue-up",
