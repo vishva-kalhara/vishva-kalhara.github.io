@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import { indexProjectCardProps } from "@/components/index-project-card";
 import SparkDisplaySvg from "@/components/logos/spark-display-svg";
@@ -24,11 +23,12 @@ export const projectData: indexProjectCardProps[] = [
         ),
         description:
             "Phoenix - A cross-platform licensing and subscription management SDK for Java and C# standalone apps. Secure your software with real-time license validation, Stripe payments, and an intuitive dashboard for tracking licenses and payments.",
-        href: "/projects/phoenix",
+        href: "https://phoenix-provider.vercel.app/",
         bannerCls: "from-[#C6FCA6] to-[#A7FCEE]",
         cta: {
-            Saas: "",
-            YouTube: "",
+            Live: "https://phoenix-provider.vercel.app/",
+            GitHub: "https://github.com/vishva-kalhara/phoenix",
+            // YouTube: "",
         },
     },
     {
@@ -50,11 +50,11 @@ export const projectData: indexProjectCardProps[] = [
         description:
             "Lightweight waitlist SaaS platform that empowers developers and startups to effortlessly collect and manage waitlist emails for their upcoming projects.",
         cta: {
-            SaaS: "https://queue--up.vercel.app/",
+            Live: "https://queue--up.vercel.app/",
             GitHub: "https://github.com/vishva-kalhara/queue-up",
-            Youtube: "",
+            // Youtube: "",
         },
-        href: "/projects/queue-up",
+        href: "https://queue--up.vercel.app/",
     },
     {
         bannerCls:
@@ -67,7 +67,7 @@ export const projectData: indexProjectCardProps[] = [
         },
         description:
             "Spark Validator :- Offers a fluent interface for validating and transforming Java input data, supporting strings and integers with built-in methods for seamless, chainable validation.",
-        href: "/projects/spark-validator",
+        href: "https://github.com/vishva-kalhara/Spark-Validator-v2.0.0/",
     },
     {
         bannerCls: "from-[#2670C3] to-[#5351BE]",
@@ -115,10 +115,9 @@ export const projectData: indexProjectCardProps[] = [
         description:
             "Designed and developed an internal platform using the MERN stack to streamline project management and CRM.",
         cta: {
-            Live: "",
-            GitHub: "",
+            GitHub: "https://github.com/vishva-kalhara/usp_editz",
         },
-        href: "/projects/usp-editz",
+        href: "https://github.com/vishva-kalhara/usp_editz",
     },
     {
         bannerCls: "from-[#FE946B] to-[#FC626C]",
@@ -146,10 +145,10 @@ export const projectData: indexProjectCardProps[] = [
         description:
             "School Sync is an all-in-one student management system that enhances administrative efficiency and data management for all users, including accounting, IT, teachers, and students, by centralizing student records, attendance, grades, and communication.",
         cta: {
-            GitHub: "",
-            YoutTube: "",
+            GitHub: "https://github.com/vishva-kalhara/School-Sync",
+            // YoutTube: "https://github.com/vishva-kalhara/School-Sync",
         },
-        href: "/projects/school-sync",
+        href: "https://github.com/vishva-kalhara/School-Sync",
     },
     {
         bannerCls: "from-[#E7ECFA] to-[#E7ECFA]",
@@ -187,9 +186,9 @@ export const projectData: indexProjectCardProps[] = [
         description:
             "The Membership Management System is a Java Swing-based desktop application designed to streamline and manage memberships for businesses.",
         cta: {
-            GitHub: "",
-            YouTube: "",
+            GitHub: "https://github.com/vishva-kalhara/Members-v2",
+            // YouTube: "",
         },
-        href: "/projects/members",
+        href: "https://github.com/vishva-kalhara/Members-v2",
     },
 ];
